@@ -24,5 +24,5 @@ add_action( 'wp_head', 'my_ad_space_style' );
 
 // wp_headのコールバック関数でCSSスタイルを出力
 function my_ad_space_style() {
-	echo '<style>.my_ad_space_style{ margin: 1em 0; }</style>';
+	echo '<style>.my_ad_space{ margin: 1em 0; }</style>';
 }
